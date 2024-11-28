@@ -1,0 +1,17 @@
+---
+title: "paaper"
+author: "Manoel Galdino"
+date: "2024-11-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+## Model
+
+State A: Chooses investment levels $x_A$ in Game 1 and $y_A$ in Game 2.
+    \item \textbf{State B}: Chooses investment level $y_B$ in Game 2.
