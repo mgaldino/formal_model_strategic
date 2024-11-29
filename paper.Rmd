@@ -11,7 +11,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
+In this model, we try to model the intution that the army investment of great powers influence the behavior of regional powers. We know that sometimes it creates peace in the region, in the sense that the regional power do not try to initiate confflict, and in other situations, it creates problems.
+
+In our model, we have a Great Power player, $G$, a Regional power player $R$ and a small power $S$ in the sphere of influence of the great Power and and Regional power. Our research question is: what conditions make it preferably to the regional power to not initiate a conflict against C to take it`s territory, and when a war is preferable?
+
+
 ## Model
 
-State A: Chooses investment levels $x_A$ in Game 1 and $y_A$ in Game 2.
-    \item \textbf{State B}: Chooses investment level $y_B$ in Game 2.
+As in cthe lassic model of Fearon, we could model the potential conflict between R and S as a game in which there is a pie of size $1$ to be distributed and they can agree on hw to splide the pie peacefully or by war. In the case o war, there is a cost $0 < C_w < 1$ to be payed, which is the result of destrcution caused by war, such as the net beneffit of was is always an inneficient outcome ex-post Standard explanations for war try to make into account why war occurs by appealing to assymetric information, commitment problems and uncertainty more generally. And although such explanations are important to understand the great power politics, they miss an important aspect when dealing with regional and small powers: the strategic behavior of the great powers matter. So, the present paper try to advances our understanding of war going beyond the great power and extending the rationalist framwork to other players in the international system.
+
+
+State G plays a classic security dilemma game, in which she she should chooses army building investment levels $x_A$. It also must decide how much of $x_A$, given by $0 < y_A < 1$ to spend of defense investment in its shpere of influence (instead of globaly) in Game 2.
+State R: Chooses investment level $x_B$ in Game 2.
+State C: chjooses its investment level $x_C$ in game 2.
+Payoff functions:
+
+$$U_A = V(x_A) + W(y_A, x_B; x_A) - C_A(x_A, y_A)$$
+
+$$U_B = W(x_B, y_A; x_A) - C_B(x_B, )$$
+
