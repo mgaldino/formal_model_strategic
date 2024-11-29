@@ -9,24 +9,35 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Introduction
 
-In this model, we try to model the intution that the army investment of great powers influence the behavior of regional powers. We know that sometimes it creates peace in the region, in the sense that the regional power do not try to initiate confflict, and in other situations, it creates problems.
+What does explain war? In rationalists explanations, any war is ex-post an inefficient outcome. Whaetever is the result from war, it could always be achieved by diplomatic negotiations between the parts involved, without the waste and destruction caused by violent conflict. Major explanations in this tradition point mainly to uncertainty in the future behavior of states, be it due to asymmetric information or commitment problems. While they are certainly important to understand occurrence of war among all states, they miss a critical element when we think about war among regional powers or among other weaker states in international system: great power politics can ignore in its strategic considerations the behavior of other states not involved the in the conflict, but not so much for regional powers and small states.
 
-In our model, we have a Great Power player, $G$, a Regional power player $R$ and a small power $S$ in the sphere of influence of the great Power and and Regional power. Our research question is: what conditions make it preferably to the regional power to not initiate a conflict against C to take it`s territory, and when a war is preferable?
+Consider the case of a country like Iraq in the nineties. Whenever deciding if it should initiate a conflict with a neighbor country like Kuwait, it must take into consideration not only the potential benefits and costs at stakes from the conflict and the likely behavior of the other party, but also how great powers like the US will react and what they are doing at the moment. If we want to understand why war occurs beyond the realm of great powers, we must take into consideration this interdependence with great powers.
 
+In the present study, we develop a formal model of conflicts that take into consideration how the decisions of great power impact the calculations and behavior of a regional power. We differentiate a great power from a regional power by considering that, when deciding its investment level in army building, a great power is in a global security dilema, while the regional power is not. Thus, in line with the realist tradition, what differentiates a great power from regional one is a structural feature of the international system and the position states occupy in it. However, by taking into consideration the strategic interdependence between nations (from the point of view of regional powers and small states), our model advance standard eplanations by explaining different behaviors of smaller states in the system and point in the direction of a another source of explanation for why war occurs or not. 
+
+In the economics literature of game theory, one promising avenue to model interdependence between actors of different level of powers is the idea of modeling strategic substitutes and complementarities. In the classic paper of [@citation_needed], there are two players, A and B. A is the more powerful one. The difference in power is a function of the structure of the system. A is a bigger firm that competes in two distinct markets. In the first market, A it is a monopolist, and in the second market it is in a duopoly with firm B, which is thus smaller. The kye ideia of such a model is that the stratagies of A in the Game 1 cand be complementary or susbstitute to stragies to firm B in game 2.
+
+For our purposes, we adapt this insight to combine it with standard rationalist model of war [@citation_Fearon] and develop a model in which there are three states: a Great Power player, $G$, a Regional power player $R$ and a small power $S$ in the sphere of influence of the great Power and Regional power. The great power plays alone in game 1, to represent the security dilemma it is part of, akin to a monopolist in a market. And there is a second game (2), in which the Regional power and the small state play, but whose actions influence the utility of the grea power and, conversly, the strategies of the great power in game 1 influence the payoffs of players in game 2. Our research question thus is: what conditions make it preferably to the regional power to not initiate a conflict against C to take it`s territory, and when a war is preferable?
+
+
+In this model, we try to model the intution that the army investment of great powers influence the behavior of regional powers. We know that sometimes it creates peace in the region, in the sense that the regional power do not try to initiate conflict, and in other situations, it creates problems.
+
+The rest of the papwer is organized as follow.
 
 ## Model
 
-As in cthe lassic model of Fearon, we could model the potential conflict between R and S as a game in which there is a pie of size $1$ to be distributed and they can agree on hw to splide the pie peacefully or by war. In the case o war, there is a cost $0 < C_w < 1$ to be payed, which is the result of destrcution caused by war, such as the net beneffit of was is always an inneficient outcome ex-post Standard explanations for war try to make into account why war occurs by appealing to assymetric information, commitment problems and uncertainty more generally. And although such explanations are important to understand the great power politics, they miss an important aspect when dealing with regional and small powers: the strategic behavior of the great powers matter. So, the present paper try to advances our understanding of war going beyond the great power and extending the rationalist framwork to other players in the international system.
+As in the classic model of Fearon, we could model the potential conflict between R and S as a game in which there is a pie of size $1$ to be distributed and they can agree on how to split the pie peacefully or by war. In the case of war, there is a cost $0 < C_w < 1$ to be payed, which is the result of destruction caused by war, so that the net benefit of war is always an inefficient outcome ex-post. Standard explanations for war try to make into account why war occurs by appealing to asymmetric information, commitment problems and uncertainty more generally. And although such explanations are important to understand the great power politics, they miss an important aspect when dealing with regional and small powers: the strategic behavior of the great powers matter. So, the present paper try to advances our understanding of war going beyond the great power and extending the rationalist framwork to other players in the international system.
 
 
-State G plays a classic security dilemma game, in which she she should chooses army building investment levels $x_A$. It also must decide how much of $x_A$, given by $0 < y_A < 1$ to spend of defense investment in its shpere of influence (instead of globaly) in Game 2.
-State R: Chooses investment level $x_B$ in Game 2.
-State C: chjooses its investment level $x_C$ in game 2.
+State G plays a classic security dilemma game (1), in which she she should chooses army building investment levels $x_A$. It also must decide how much of $x_A$, given by $0 < y_A < 1$ to spend of defense investment in its shpere of influence (instead of globaly).
+
+In game 2, state R chooses to start a war against C or the preserve the status quo in Game 2, given by $X_B \in \{0,1\}$, in which $1$ indicates a war was started, and $0$ otherwise. The outcome of war is given by a lottery.
 Payoff functions:
 
-$$U_A = V(x_A) + W(y_A, x_B; x_A) - C_A(x_A, y_A)$$
+$$U_A = V(x_A) + W(y_A, x_B; x_A) - C_A(x_A, y_A)$$, 
+where $V(x_A)$ is the benefit from investment $x_A$, $Wy_A, x_B; x_A)$ is the benefit from fraction of $X_A$ spent in its sphere of influence, 
 
 $$U_B = W(x_B, y_A; x_A) - C_B(x_B, )$$
 
