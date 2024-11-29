@@ -36,8 +36,8 @@ State G plays a classic security dilemma game (1), in which she she should choos
 In game 2, state R chooses to start a war against C or the preserve the status quo in Game 2, given by $X_B \in \{0,1\}$, in which $1$ indicates a war was started, and $0$ otherwise. The outcome of war is given by a lottery.
 Payoff functions:
 
-$$U_A = V(x_A) + W(y_A, x_B; x_A) - C_A(x_A, y_A)$$, 
-where $V(x_A)$ is the benefit from investment $x_A$, $Wy_A, x_B; x_A)$ is the benefit from fraction of $X_A$ spent in its sphere of influence, 
+$$U_A = V(x_A) + W(y_A, x_B; x_A) - C_A(x_A, y_A)$$ 
+where $V(x_A)$ is the benefit from investment $x_A$, $W(y_A, x_B; x_A)$ is the benefit from fraction of $X_A$ spent in its sphere of influence, and it depends also on the decision by B and $C_A$ is the cost function.
 
 $$U_B = W(x_B, y_A; x_A) - C_B(x_B, )$$
-
+where $W(x_B, y_A; x_A)$ is the benefit for B of initiating a war, which depends on the level of investment of A and the fraction it spent in its sphere of influence, and $C_B$ is the cost function for $B$ of a war.
