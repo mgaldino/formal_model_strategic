@@ -9,7 +9,28 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Excepts
+
+Why would Hammas attack Israel knowing that it would retaliate and that any war between Israel and Hamas would surely result in defeat of Hamas and victory of Israel? One possible explanation is a complicated calculus that somehow allies of Palestina, like Iran, would join the battle and help the Palestinian side. But it is hard to find which such calculus would be that would justify it from a rationalist point of view. Standard explanations, involving uncertainty or commitment problems, or even audience cost theory, are incurable of illuminating the actions of Hamas any further. What is missing in all such theories is the role of public opinion in foreign countries, like the US.
+
+On a very different situation, why would Bolivia escalate tensions with Brazil over assets owned by Brazilian state-oiled company Petrobras in Bolivia, during Lula da Silva's leftist presidency, when knowing that international arbitration would more likely than not favor Petrobras and the fact that Brazil was way more powerful than Bolivia? Again, standard explanariong for bargaining crisis involving assimetry of information and commitment credibility cannot fully explain the actions taken by Bolivia.
+
+Without denying the improtance of standard models of war and crisis bargaining, one important thing has been missing from the literature: the interdependence with the public opinion or at least the opinion of the constituency of foreign leaders involved directly or indirectly in the dispute at hand.
+
+In the present paper we try to model such interdependence. The intution for the model is as follow. If an issue becomes sufficiently salient for a foreing leader, than the action of the foreign leader must take into consideration not only the likely outcome of acquiescing or scalating a crisis (or going to war), but also the impact of supporting or not the escalation on its domestic popularity. This creates a species of "joint (dis)economy" in the popularity of president connecting domestic and foreign affairs, effectively changing the equilibrium. 
+
+As a result, actors with small powers such as Bolivia can improve its hand ina bargaining situation in a case in which the constituency of Lula da Silva is simpatehtic to the claims made by Bolivia, or Hamas would want to, as said by Luther King in the context of nonviolenet protest "create such a crisis and
+establish such creative tension that a community that has consistently refused to negotiate is forced to confront the issue. It seeks so to dramatize the issue that it can no longer be ignored."(p. 2). In other words, by making the injustice salient, it is trying to connect the popularity of supporting Israel war against Hamas.
+
+"Nonviolent direct action seeks to create such a crisis and
+establish such creative tension that a community that has consistently refused to negotiate is forced to confront the issue. It seeks so to dramatize the issue that it can no longer be ignored."(p. 2). Dr. King.
+
+
 ## Introduction
+
+The audience cost literature suggests that the coalition that supports a leaders may make their threats more credible in bargainigns crisis, because the audience would punish their leaders if they renege on they foreign promises. As a result, domestic audience would tie the hands of leaders, allowing promises to be credible and thus open new equilibriums that otherwise would not be availabe. 
+
+This literature, however, has not considered the case where there is interdependence between the policies toward a foreign country and its domestic audience. In the present paper we model this interdepenence.
 
 What does explain war? In rationalists explanations, any war is ex-post an inefficient outcome. Whaetever is the result from war, it could always be achieved by diplomatic negotiations between the parts involved, without the waste and destruction caused by violent conflict. Major explanations in this tradition point mainly to uncertainty in the future behavior of states, be it due to asymmetric information or commitment problems. While they are certainly important to understand occurrence of war among all states, they miss a critical element when we think about war among regional powers or among other weaker states in international system: great power politics can ignore in its strategic considerations the behavior of other states not involved the in the conflict, but not so much for regional powers and small states.
 
@@ -19,7 +40,9 @@ In the present study, we develop a formal model of conflicts that take into cons
 
 In the economics literature of game theory, one promising avenue to model interdependence between actors of different level of powers is the idea of modeling strategic substitutes and complementarities. In the classic paper of [@citation_needed], there are two players, A and B. A is the more powerful one. The difference in power is a function of the structure of the system. A is a bigger firm that competes in two distinct markets. In the first market, A it is a monopolist, and in the second market it is in a duopoly with firm B, which is thus smaller. The kye ideia of such a model is that the stratagies of A in the Game 1 cand be complementary or susbstitute to stragies to firm B in game 2.
 
-For our purposes, we adapt this insight to combine it with standard rationalist model of war [@citation_Fearon] and develop a model in which there are three states: a Great Power player, $G$, a Regional power player $R$ and a small power $S$ in the sphere of influence of the great Power and Regional power. The great power plays alone in game 1, to represent the security dilemma it is part of, akin to a monopolist in a market. And there is a second game (2), in which the Regional power and the small state play, but whose actions influence the utility of the grea power and, conversly, the strategies of the great power in game 1 influence the payoffs of players in game 2. Our research question thus is: what conditions make it preferably to the regional power to not initiate a conflict against C to take it`s territory, and when a war is preferable?
+For our purposes, we adapt this insight to combine it with standard rationalist model of war [@citation_Fearon] and develop a model in which there are three states: a Great Power player, $G$, a Regional power player $R$ and a small power $S$ in the sphere of influence of the great Power and Regional power. The Great Power can elect two types of leaders. One in which its constituency favor allying with the regional power, and one in which its constituency does not favor alliance with $R$. The election in $G$ is determined by a lottery. After knowing which type is elected
+
+The great power plays alone in game 1, to represent the security dilemma it is part of, akin to a monopolist in a market. And there is a second game (2), in which the Regional power and the small state play, but whose actions influence the utility of the grea power and, conversly, the strategies of the great power in game 1 influence the payoffs of players in game 2. Our research question thus is: what conditions make it preferably to the regional power to not initiate a conflict against C to take it`s territory, and when a war is preferable?
 
 
 In this model, we try to model the intution that the army investment of great powers influence the behavior of regional powers. We know that sometimes it creates peace in the region, in the sense that the regional power do not try to initiate conflict, and in other situations, it creates problems.
